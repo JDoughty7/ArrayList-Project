@@ -2,8 +2,12 @@ import java.util.ArrayList;
 
 public class PlayList {
 	public static int MAX_NUMBER_SONGS = 10;
+  private String listname;
+  private ArrayList<Song> songs;
+  private ArrayList<Integer> stars;
 
 	public PlayList(String name) {
+    listname = name;
 	}
 
 	public ArrayList<Integer> getStars() {

@@ -16,11 +16,11 @@ public class Song {
 	}
 
 	public boolean equals(Song other) {
-    return (name.equals(other.getName()) && artist.equals(other.getArtist()))
+    return (name.equals(other.getName()) && artist.equals(other.getArtist()));
     
   }
 
 	public String toString() {
-
+    return "Name:" + name + " " + " Artist" + artist;
 	}
 }
